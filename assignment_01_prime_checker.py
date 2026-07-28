@@ -31,7 +31,22 @@
 # - The main block must call the function and print the result.
 #
 
-# =============================================================================
-# YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
-# =============================================================================
+# ============================================================================YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
+def num_is_prime(x):
+     if x<2:
+        return False
+     for i in range (2, x):
+        if x%i == 0:
+          return False
+     return True 
+
+num = int(input("Enter a number:"))
+result = num_is_prime(num)
+
+if result == True:
+   print(f"{num} is a prime number.")  
+else:
+   print(f"{num} is NOT a prime number.")
+
+#=============================================================================
 
