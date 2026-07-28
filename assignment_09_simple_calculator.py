@@ -141,7 +141,7 @@ def main():
             result = divide(a, b)
             operator = "/"
             if result is None:
-                print("Error: Cannot divide by zero.")
+                print("Error: Cannot divide by zero.") 
                 continue
         elif choice == "5":
             result = modulus(a, b)
