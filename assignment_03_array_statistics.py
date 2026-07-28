@@ -37,7 +37,7 @@
 
 # =============================================================================  YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 
-def calculate_sum(numbers):
+def calculate_sum(numbers): 
     total = 0
     for n in numbers:
         total += n
